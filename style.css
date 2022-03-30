@@ -1,0 +1,21 @@
+.jumbotron {
+    background-color: #0099ff;
+    color: #fff;
+}
+
+.jumbotron img {
+    width: 250px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.jumbotron p {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 428px){
+    .jumbotron img {
+        width: 60%;
+    }
+}
